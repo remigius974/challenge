@@ -1,5 +1,5 @@
 import 'package:challenge/screens/home.dart';
-import 'package:challenge/screens/payment.dart';
+import 'package:challenge/screens/nav.dart';
 import 'package:flutter/material.dart';
 
 class Numbers extends StatefulWidget {
@@ -11,7 +11,7 @@ class Numbers extends StatefulWidget {
 
 void home(context) {
   Navigator.of(context).push(
-      MaterialPageRoute(builder: (BuildContext context) => const HomePage()));
+      MaterialPageRoute(builder: (BuildContext context) => BottomNavPages()));
 }
 
 class _NumbersState extends State<Numbers> {
