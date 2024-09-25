@@ -41,8 +41,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: af-south-1
         run: |
-          aws s3 cp build/app/outputs/flutter-apk/app-release.apk s3://cb-mobile-apks/PipelineTest/app-release.apk --acl public-read
-
+          aws s3 cp build/app/outputs/flutter-apk/app-release.apk s3://cb-mobile-apks/PipelineTest/app-release.apk 
       - name: Generate Pre-signed URL
         env:
           AWS_REGION: af-south-1 
