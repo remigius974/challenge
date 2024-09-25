@@ -34,4 +34,4 @@ jobs:
 
       - name: Generate Pre-signed URL
         run: |
-          aws s3 presign s3://your-s3-bucket-name/app-release.apk --expires-in 10800
+          aws s3 presign s3://PipelineTest/app-release.apk --expires-in 10800
