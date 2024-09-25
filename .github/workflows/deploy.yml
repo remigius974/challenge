@@ -30,8 +30,8 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
-          aws s3 cp build/app/outputs/flutter-apk/app-release.apk s3://your-s3-bucket-name/app-release.apk --acl public-read
+          aws s3 cp build/app/outputs/flutter-apk/app-release.apk s3://PipelineTest/app-release.apk --acl public-read
 
       - name: Generate Pre-signed URL
         run: |
-          aws s3 presign s3://your-s3-bucket-name/app-release.apk --expires-in 3600
+          aws s3 presign s3://your-s3-bucket-name/app-release.apk --expires-in 10800
