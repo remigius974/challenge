@@ -26,7 +26,7 @@ jobs:
         run: flutter pub get
 
       - name: Build APK
-        run: flutter build apk --release
+        run: flutter build apk
 
       - name: Upload APK to S3
         env:
