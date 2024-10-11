@@ -1,4 +1,4 @@
-package com.example.challenge
+package com.codeblock.challenge
 
 import io.flutter.embedding.android.FlutterActivity
 

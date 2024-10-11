@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "239204506192",
+    "project_id": "challenge-22385",
+    "storage_bucket": "challenge-22385.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239204506192:android:5201d91b1019843df14f55",
+        "android_client_info": {
+          "package_name": "com.codeblock.challenge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvnOMhnjNoutpaDiIgeM-3DLhs8J27nqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
